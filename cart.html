@@ -1,0 +1,193 @@
+<html  lang="en">
+<head>
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Cart - Shopoholic</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+
+ <div class="conatainer">
+   <div class="navbar">
+      <div class="logo">
+          <a href="C:\Users\OM\Desktop\e-commerce\index1.html"><img src="C:\Users\OM\Desktop\e-commerce\images\2.3.png" width="200px" ></a>
+      </div>
+    <nav>
+        <ul id="MenuItems">
+          <li><a href="C:\Users\OM\Desktop\e-commerce\index1.html ">Home</a></li>
+            <li><a href=" C:\Users\OM\Desktop\e-commerce\products.html">Products</a></li>
+            <li><a href=" ">design your own</a></li>
+            <li><a href=" ">About us</a></li>
+            <li><a href=" ">Contact us</a></li>
+            <li><a href=" account.html ">Accounts</a></li>
+        </ul>
+    </nav>
+    <a href="C:\Users\OM\Desktop\e-commerce\cart.html"><img src="C:\Users\OM\Desktop\e-commerce\images\car1.png" width="30px" height="30px"></a>
+    <img src="C:\Users\OM\Desktop\e-commerce\images\menu.jpg" class="menu-icon" onclick="menutoggle()" >
+    </div>
+</div>
+    
+        
+ </div>
+ <!--cart item details-->
+ <div class="small-container cart-item">
+ <table>
+ <tr>
+ <th>
+Product
+ </th>
+ <th>Quantity</th>
+ <th>Subtotal</th>
+ </tr>
+ <tr>
+ <td>
+ <div class="cart-info" >
+ <img src="C:\Users\OM\Desktop\e-commerce\images\navyblue.jpg">
+ <div>
+ <p>Alone half Sleeves T-shirt</p>
+ <small>Price:$70.00</small><br>
+ <a href="">Remove</a>
+ </div>
+ </div>
+ </td>
+ <td><input type="number" value="1"></td>
+ <td>$70.00</td>
+ </tr>
+ <tr>
+ <td>
+ <div class="cart-info" >
+ <img src="C:\Users\OM\Desktop\e-commerce\images\s1.png">
+ <div>
+ <p>white-sweatshirt</p>
+ <small>Price:$50.00</small><br>
+ <a href="">Remove</a>
+ </div>
+ </div>
+ </td>
+ <td><input type="number" value="1"></td>
+ <td>$50.00</td>
+ </tr>
+ <tr>
+ <td>
+ <div class="cart-info" >
+ <img src="C:\Users\OM\Desktop\e-commerce\images\Men Round Neck.jpg">
+ <div>
+ <p>Men Round Neck Black-White T-Shirt</p>
+ <small>Price:$70.00</small><br>
+ <a href="">Remove</a>
+ </div>
+ </div>
+ </td>
+ <td><input type="number" value="1"></td>
+ <td>$70.00</td>
+ </tr>
+ <tr>
+ <td>
+ <div class="cart-info" >
+ <img src="C:\Users\OM\Desktop\e-commerce\images\Liseaven-Full-Sleeve-T-Shirt-Men-Cotton.jpg">
+ <div>
+ <p>Liseaven-Full-Sleeve-T-Shirt-Men-Cotton</p>
+ <small>Price:$58.00</small><br>
+ <a href="">Remove</a>
+ </div>
+ </div>
+ </td>
+ <td><input type="number" value="1"></td>
+ <td>$58.00</td>
+ </tr>
+ <tr>
+ <td>
+ <div class="cart-info" >
+ <img src="C:\Users\OM\Desktop\e-commerce\images\tshit.jpeg">
+ <div>
+ <p>Striped Men Round Neck Black T-Shirt</p>
+ <small>Price:$60.00</small><br>
+ <a href="">Remove</a>
+ </div>
+ </div>
+ </td>
+ <td><input type="number" value="1"></td>
+ <td>$60.00</td>
+ </tr>
+ 
+ </table>
+ <div class="total-price">
+ <table>
+ <tr>
+ <td>Subtotal</td>
+ <td>$308</td>
+ </tr>
+ <tr>
+ <td>Tax</td>
+ <td>$25.00</td>
+ </tr>
+ <tr>
+ <td>Total</td>
+ <td>$333</td>
+ </tr>
+ </table>
+ </div>
+ </div>
+
+       
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="C:\Users\OM\Desktop\e-commerce\images\play.png" >
+                        <img src="C:\Users\OM\Desktop\e-commerce\images\apps.png" >
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="C:\Users\OM\Desktop\e-commerce\images\2.2.png" >
+                <p>Our main role is to fulfill our customers needs and makes their life more Fashionable.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Links for these pages</h3>
+                <ul>
+                <li>Coupouns</li>
+                <li>Blod Post</li>
+                <li> Refund Polices</li>
+                <li>Wallet</li>
+                <li> Terms and condition</li>
+                <li> Join Afflilate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follows Us </h3>
+                <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instragram</li>
+                <li>Youtube</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--js for toggle menu-->
+<script>
+var MenuItems= document.getElementById("MenuItems");
+MenuItems.style.maxHeight="0px";
+
+function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight="200px" ;
+    }
+    else
+    {
+        MenuItems.style.maxHeight="0px" ;
+    }
+}
+</script>
+</body>
+</html>
